@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.loading{
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading{
+  font-weight: bolder;
+}
+.underline{
+  background-color: rgb(82, 208, 208);
+  width: 8rem;
+  height: 0.25rem;
+  /* The below code helps centralise the div*/
+  margin-left: auto;
+  margin-right: auto;
+}
