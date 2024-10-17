@@ -22,3 +22,14 @@ const Tours = ({tours,handleDelete}) => {
                     <h3 className="price">${tour.price}</h3>
                     <article>{readMore ? tour.info : `${tour.info.substring(0,300)}...  `}
                         <br></br>
+                        <br></br>
+                        <button className="toggle-read-more" onClick={()=>{setToggleAndMessage()}}>{buttonMessage}</button>
+                    </article>
+                    <button className="not-interested" onClick={()=>handleDelete(tour.id)}>Not Interested</button>
+                </div>
+            ))}
+        </div>
+     );
+}
+ 
+export default Tours;
