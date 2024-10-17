@@ -4,7 +4,7 @@ import Tours from './Tours';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const url = "https://course-api.com/react-tours-project"
+  const url = "https://course-api.netlify.app/api/react-tours-project"
   const [tours,setTours] = useState([]);
   const [loading,setLoading] = useState(true)
 
